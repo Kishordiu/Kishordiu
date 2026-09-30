@@ -1,121 +1,115 @@
 <div align="center">
 
-# K. KISHOR KUMAR
-
-### ENGINEER · BUILDER · INNOVATOR
+![Kishor Kumar — Engineering](https://capsule-render.vercel.app/api?type=waving&color=0:050505,55:111111,100:2A2A28&height=250&section=header&text=K.%20KISHOR%20KUMAR&fontColor=F4F4EF&fontSize=46&fontAlignY=40&desc=ENGINEER%20%C2%B7%20BUILDER%20%C2%B7%20INNOVATOR&descColor=969690&descSize=13&descAlignY=62&animation=fadeIn)
 
 **AI · Full-Stack · IoT · Cybersecurity · Embedded Systems · Product Engineering**
 
-<p>
-<a href="https://github.com/Kishordiu">GitHub</a> ·
+<a href="https://github.com/Kishordiu">GitHub</a>
+&nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303">LinkedIn</a>
-</p>
 
 </div>
 
 ---
 
-## Building at the intersection of software and the real world
+# BUILDING AT THE EDGE OF SOFTWARE
 
-I build systems that move from **idea → architecture → prototype → iteration → product**.
+I build systems that move through **research → architecture → prototype → test → iteration → product**.
 
-My projects span intelligent software, full-stack products, connected devices, security architectures, accessibility technology and experimental engineering.
+The portfolio spans intelligent software, full-stack products, connected devices, security architectures, accessibility technology, health-tech experiments and creative-technology interfaces.
 
-### What I work with
+## THE ENGINEERING MAP
 
-| AI & Intelligence | Software | Connected Systems | Engineering |
+| Intelligence | Product | Connected Systems | Hardware |
 |---|---|---|---|
 | Generative AI | React / Next.js | IoT | ESP32 |
 | Computer Vision | TypeScript | Embedded Systems | Sensors |
-| AI Assistants | Node.js | Device Security | Prototyping |
-| Intelligent Workflows | Supabase | Zero Trust | Hardware Concepts |
+| AI Assistants | Node.js | Zero Trust | Electronics |
+| Intelligent Workflows | Supabase / PostgreSQL | Device Security | Prototyping |
 
 ---
 
-## Selected work
+# SELECTED SYSTEMS
 
-### DIU NEST
-**Evidence-first procurement intelligence**
+### [DIU NEST](https://github.com/Kishordiu/Diu-Nest)
+**PROCUREMENT INTELLIGENCE / EVIDENCE**
 
-Live-web supplier discovery, evidence provenance, deterministic cost/risk workflows and auditable decision records.
+A decision workflow built around live discovery, evidence provenance, deterministic cost/risk analysis and auditable approval.
 
-### ZERO-TRUST IoT
-**Security architecture for connected devices**
+### [SENTINEL SHIELD](https://github.com/Kishordiu/sentinel-shield-ui)
+**ZERO-TRUST / HARDWARE SECURITY**
 
-Exploring secure onboarding, cryptographic device identity, continuous verification, tamper response and dynamic trust enforcement.
+Secure onboarding, device identity, trust-state enforcement and tamper-response concepts for connected systems.
 
-### SIXSHARP
-**Quantitative research & backtesting**
+### [SIXSHARP](https://github.com/Kishordiu/sixsharp)
+**QUANTITATIVE RESEARCH / BACKTESTING**
 
-A browser-based quantitative platform exploring realistic execution, strategy testing, risk metrics and accessible financial analytics.
+Strategy research with explicit execution assumptions, transaction costs, position sizing and risk-aware analytics.
 
-### DIUMED
-**A privacy-conscious health-tech experiment**
+### [KIDIUVISION](https://github.com/Kishordiu/Kidiuvision)
+**VISUAL INTELLIGENCE / BROWSER COMPUTATION**
 
-A mobile-first prototype exploring camera-based health signals, offline triage and private health records, with explicit safety limitations.
+A local-first image workbench for pixel inspection, luminance analysis, colour estimation and visual transforms.
 
-### INNOVATION DNA
-**A digital ecosystem for student innovation**
+### [KNEEAI](https://github.com/Kishordiu/KneeAI)
+**HEALTH-TECH / WELLNESS TRACKING**
 
-A product concept connecting learning, projects, mentors, hackathons and startup development.
+A local-first workspace for daily discomfort tracking, trends, gentle session planning and safety guidance.
 
-### STREETFORGE
-**Technology × innovation × product engineering**
+### [TRAVEL WITH STREETFORGE](https://github.com/Kishordiu/TravelwithSF)
+**TRAVEL / PRODUCT EXPERIENCE**
 
-An evolving studio identity spanning software, AI, IoT, embedded systems, electronics, hardware prototyping and digital products.
+Destination discovery, itinerary assembly and trip-budget planning in a dependency-free browser product.
 
----
+### [STREETFORGE](https://github.com/Kishordiu/Streetaforge)
+**TECHNOLOGY × INNOVATION × ENGINEERING**
 
-## Technology
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,cpp,c,react,nextjs,vite,tailwind,nodejs,supabase,postgres,firebase,opencv,pytorch,git,github,vscode,docker,figma,arduino" />
-</p>
+The studio identity connecting software, AI, IoT, embedded systems, electronics, hardware prototyping and digital products.
 
 ---
 
-## Engineering philosophy
+# THE WORKING PRINCIPLE
 
-> **Don't just build interfaces. Build systems.**
+> **Don't just make the interface look finished. Make the system make sense.**
 
-I care about the complete lifecycle:
+That means:
 
 ```text
-IDEA
- ↓
+QUESTION
+   ↓
 RESEARCH
- ↓
-ARCHITECTURE
- ↓
-PROTOTYPE
- ↓
-TEST
- ↓
+   ↓
+SYSTEM DESIGN
+   ↓
+IMPLEMENTATION
+   ↓
+TEST / OBSERVE
+   ↓
 ITERATE
- ↓
+   ↓
 SHIP
 ```
 
-Some repositories are polished products. Others are experiments, prototypes or learning projects. I keep them public because the engineering journey matters too.
+The public portfolio intentionally contains products, technical prototypes and experiments at different stages. The README of each repository states what is implemented and separates that from future direction.
 
 ---
 
-## Current direction
+# CURRENT DIRECTION
 
-**AI-native products · secure IoT · intelligent interfaces · hardware/software integration · innovation platforms**
+**AI-native products · secure IoT · intelligent interfaces · software/hardware integration · innovation platforms**
 
 ---
 
 <div align="center">
 
-### KISHOR / ENGINEERING LOG
+![Engineering footer](https://capsule-render.vercel.app/api?type=waving&color=0:2A2A28,55:111111,100:050505&height=120&section=footer&animation=twinkling)
 
-**Curiosity drives the build.**
+**KISHOR / ENGINEERING LOG**
+
+<sub>Curiosity drives the build.</sub>
+
+<br><br>
+
+© K. Kishor Kumar · Built, documented and maintained by Kishordiu
 
 </div>
-
----
-
-<p align="center">
-© K. Kishor Kumar · Built, documented and maintained by Kishordiu
-</p>
