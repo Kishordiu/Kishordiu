@@ -66,6 +66,11 @@ Destination discovery, itinerary assembly and trip-budget planning in a dependen
 
 The studio identity connecting software, AI, IoT, embedded systems, electronics, hardware prototyping and digital products.
 
+### [DIU FOUNDRY](https://diufoundry.online/)
+**DIGITAL INNOVATION STUDIO**
+
+Every idea is a spark. Build the flame. A growing body of work across AI, software, hardware, embedded systems, IoT, automation and experimental products.
+
 ---
 
 # THE WORKING PRINCIPLE
