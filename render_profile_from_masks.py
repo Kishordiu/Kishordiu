@@ -42,8 +42,9 @@ def logo_targets(name: str, count: int, seed: int):
     mask = Image.new("L", (sz, sz), 0)
     draw = ImageDraw.Draw(mask)
     try:
-        word_font = ImageFont.truetype("DejaVuSans-Bold.ttf", 47)
-        sub_font = ImageFont.truetype("DejaVuSans-Bold.ttf", 10)
+        font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        word_font = ImageFont.truetype(font_path, 47)
+        sub_font = ImageFont.truetype(font_path, 10)
     except OSError:
         word_font = ImageFont.load_default()
         sub_font = ImageFont.load_default()
