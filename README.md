@@ -71,37 +71,44 @@
 
 ## Selected systems
 
-### [DIU NEST](https://github.com/Kishordiu/Diu-Nest)
+### 🧭 [DIU NEST](https://github.com/Kishordiu/Diu-Nest)
+<img alt="Procurement intelligence" src="https://img.shields.io/badge/DECISION_INTELLIGENCE-8B5CF6?style=flat-square" />
 **Procurement intelligence · evidence-based decisions**
 
 Live discovery and auditable decision workflows built around evidence provenance, deterministic cost/risk analysis, and approval.
 
-### [SENTINEL SHIELD](https://github.com/Kishordiu/sentinel-shield-ui)
+### 🛡️ [SENTINEL SHIELD](https://github.com/Kishordiu/sentinel-shield-ui)
+<img alt="Zero-trust security" src="https://img.shields.io/badge/ZERO_TRUST-EC4899?style=flat-square" />
 **Zero-trust · connected-device security**
 
 Secure onboarding, device identity, trust-state enforcement, and tamper-response concepts for connected systems.
 
-### [SIXSHARP](https://github.com/Kishordiu/sixsharp)
+### 📈 [SIXSHARP](https://github.com/Kishordiu/sixsharp)
+<img alt="Quantitative research" src="https://img.shields.io/badge/QUANT_RESEARCH-0891B2?style=flat-square" />
 **Quantitative research · backtesting**
 
 Multi-asset strategy research with explicit execution assumptions, transaction costs, position sizing, and risk analytics.
 
-### [KIDIUVISION](https://github.com/Kishordiu/Kidiuvision)
+### 👁️ [KIDIUVISION](https://github.com/Kishordiu/Kidiuvision)
+<img alt="Visual intelligence" src="https://img.shields.io/badge/COMPUTER_VISION-2563EB?style=flat-square" />
 **Visual intelligence · browser computation**
 
 A local-first image workbench for pixel inspection, luminance analysis, colour estimation, and visual transforms.
 
-### [KNEEAI](https://github.com/Kishordiu/KneeAI)
+### 🌿 [KNEEAI](https://github.com/Kishordiu/KneeAI)
+<img alt="Health technology" src="https://img.shields.io/badge/HEALTH_TECH-059669?style=flat-square" />
 **Health-tech · wellness tracking**
 
 A local-first workspace for discomfort tracking, trends, gentle session planning, and safety guidance.
 
-### [TRAVEL WITH STREETFORGE](https://github.com/Kishordiu/TravelwithSF)
+### 🗺️ [TRAVEL WITH STREETFORGE](https://github.com/Kishordiu/TravelwithSF)
+<img alt="Travel product" src="https://img.shields.io/badge/PRODUCT_EXPERIENCE-F59E0B?style=flat-square" />
 **Travel · product experience**
 
 Destination discovery, itinerary assembly, and trip-budget planning in a dependency-free browser product.
 
-### [DIU FOUNDRY](https://diufoundry.online/)
+### ✨ [DIU FOUNDRY](https://diufoundry.online/)
+<img alt="Digital innovation studio" src="https://img.shields.io/badge/INNOVATION_STUDIO-DB2777?style=flat-square" />
 **Digital innovation studio**
 
 Every idea is a spark. Build the flame. AI, software, IoT, embedded systems, hardware prototyping, automation, and experimental products.
@@ -114,12 +121,12 @@ GitHub awards profile achievements automatically; they cannot be legitimately ad
 
 Milestones worth pursuing through genuine community work:
 
-- **Pull Shark** — get meaningful pull requests merged.
-- **Galaxy Brain** — help people in public repository Discussions and earn accepted answers.
+- **Pull Shark** — earn it by getting meaningful pull requests merged; the first level starts at two.
+- **Galaxy Brain** — contribute useful answers in public repositories' Discussions and have two accepted.
 - **Pair Extraordinaire** — collaborate on a real change and get a co-authored pull request merged.
-- **Starstruck** — grow one of your original public projects to a wider audience.
+- **Starstruck** — grow one of your own public projects to 16 stars.
 
-I won't display any of these as earned until GitHub itself awards them.
+These thresholds are community-documented and can change; GitHub itself decides when an achievement is awarded. I won't display an achievement as earned until it appears in the native shelf.
 
 ---
 
