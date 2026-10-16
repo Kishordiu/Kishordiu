@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/dark.svg?v=3" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=3" />
-    <img alt="K. Kishor Kumar — animated dotted portrait engineering profile" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=3" width="100%" />
+    <img alt="K. Kishor Kumar — portrait particles dissolve into the DIU Foundry wordmark" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=3" width="100%" />
   </picture>
 </div>
 
