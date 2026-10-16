@@ -32,18 +32,18 @@ LANG_COLORS = {
     "Ruby": "#701516", "SCSS": "#c6538c", "Markdown": "#083fa1",
 }
 DARK = {
-    "bg": "#080b1a", "panel": "#10152b", "line": "#30385f",
-    "text": "#f7f7ff", "muted": "#a7b2d9", "cyan": "#22d3ee",
-    "violet": "#a78bfa", "green": "#34d399", "pink": "#f472b6",
-    "yellow": "#fbbf24", "blue": "#60a5fa", "orange": "#fb923c",
-    "bar_bg": "#222846",
+    "bg": "#0a141c", "panel": "#13222d", "line": "#2d424f",
+    "text": "#eef4f7", "muted": "#a2b5c0", "cyan": "#6bc6ce",
+    "violet": "#879fc2", "green": "#78b8a3", "pink": "#83a8bc",
+    "yellow": "#d0b77e", "blue": "#7aafd0", "orange": "#c69372",
+    "bar_bg": "#203541",
 }
 LIGHT = {
-    "bg": "#f4f6ff", "panel": "#ffffff", "line": "#dedbf7",
-    "text": "#161530", "muted": "#6b668b", "cyan": "#0891b2",
-    "violet": "#7c3aed", "green": "#059669", "pink": "#db2777",
-    "yellow": "#d97706", "blue": "#2563eb", "orange": "#ea580c",
-    "bar_bg": "#e9e7ff",
+    "bg": "#f3f7f8", "panel": "#ffffff", "line": "#d4e0e5",
+    "text": "#1d303b", "muted": "#58717e", "cyan": "#287f8a",
+    "violet": "#667fa4", "green": "#317e68", "pink": "#7f9daf",
+    "yellow": "#b18b52", "blue": "#397ba9", "orange": "#b97b59",
+    "bar_bg": "#e1eaee",
 }
 
 def api_get(url: str):
