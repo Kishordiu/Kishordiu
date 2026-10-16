@@ -7,15 +7,16 @@
 </div>
 
 <p align="center">
-  <img alt="Google Gemini Student Ambassador 2026" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/gemini.svg?v=1" width="252" />&nbsp;
-  <img alt="BIHER · B.Tech CSE" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/biher.svg?v=1" width="228" />&nbsp;
-  <img alt="Building, learning, shipping" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/status.svg?v=1" width="238" />
+  <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303/"><img alt="Connect on LinkedIn" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/linkedin.svg?v=1" width="198" /></a>&nbsp;
+  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email Kishor" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/email.svg?v=1" width="170" /></a>&nbsp;
+  <a href="https://diufoundry.online/"><img alt="Visit DIU Foundry" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/diu-foundry.svg?v=1" width="214" /></a>&nbsp;
+  <a href="https://github.com/Kishordiu?tab=achievements"><img alt="Open official GitHub achievements shelf" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/achievements.svg?v=1" width="238" /></a>
 </p>
 
 <p align="center">
-  <img alt="Google Gemini Student Ambassador 2026" src="https://img.shields.io/badge/Google_Gemini-Student_Ambassador_2026-8B5CF6?style=for-the-badge&logo=googlegemini&logoColor=white" />
-  <img alt="B.Tech CSE at BIHER" src="https://img.shields.io/badge/BIHER-B.Tech_CSE-0891B2?style=for-the-badge" />
-  <img alt="Build status: learning and shipping" src="https://img.shields.io/badge/STATUS-Building_%2F_Learning_%2F_Shipping-10B981?style=for-the-badge" />
+  <img alt="Google Gemini Student Ambassador 2026" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/gemini.svg?v=1" width="252" />&nbsp;
+  <img alt="BIHER · B.Tech CSE" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/biher.svg?v=1" width="228" />&nbsp;
+  <img alt="Building, learning, shipping" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/status.svg?v=1" width="238" />
 </p>
 
 <p align="center"><b>Curiosity drives the build.</b><br/><em>Independent builder at the intersection of AI, software, connected systems, and product design.</em></p>
