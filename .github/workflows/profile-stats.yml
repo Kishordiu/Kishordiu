@@ -1,0 +1,39 @@
+name: Generate public profile stats cards
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_profile_stats.py"
+      - ".github/workflows/profile-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile sources
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Generate dark and light SVG cards
+        env:
+          GH_OWNER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_profile_stats.py dist
+      - name: Publish generated cards
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          publish_branch: profile-stats
+          publish_dir: dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force_orphan: true
+          commit_message: "Refresh generated profile stats [skip ci]"
