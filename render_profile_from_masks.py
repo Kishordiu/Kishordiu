@@ -12,18 +12,18 @@ X0, Y0, PW, PH = 74.0, 137.0, 378.0, 420.0
 SEED = 6615
 
 DARK = {
-    'bg':'#080b1a','panel':'#10152b','panel2':'#0b1022','line':'#30385f',
-    'text':'#f7f7ff','muted':'#a7b2d9','portrait':'#c4b5fd','accent':'#22d3ee',
-    'green':'#34d399','red':'#fb7185','pill':'#8b5cf6','badge_text':'#ffffff',
-    'grid':'#222846','pink':'#f472b6','yellow':'#fbbf24','blue':'#60a5fa',
-    'orange':'#fb923c','violet':'#a78bfa'
+    'bg':'#0a141c','panel':'#13222d','panel2':'#0e1b25','line':'#2d424f',
+    'text':'#eef4f7','muted':'#a2b5c0','portrait':'#b4d8e4','accent':'#6bc6ce',
+    'green':'#78b8a3','red':'#c8797d','pill':'#4d8198','badge_text':'#ffffff',
+    'grid':'#203541','pink':'#83a8bc','yellow':'#d0b77e','blue':'#7aafd0',
+    'orange':'#c69372','violet':'#879fc2'
 }
 LIGHT = {
-    'bg':'#f4f6ff','panel':'#ffffff','panel2':'#f8f5ff','line':'#dedbf7',
-    'text':'#161530','muted':'#6b668b','portrait':'#4338ca','accent':'#0891b2',
-    'green':'#059669','red':'#e11d48','pill':'#7c3aed','badge_text':'#ffffff',
-    'grid':'#e9e7ff','pink':'#db2777','yellow':'#d97706','blue':'#2563eb',
-    'orange':'#ea580c','violet':'#7c3aed'
+    'bg':'#f3f7f8','panel':'#ffffff','panel2':'#edf3f5','line':'#d4e0e5',
+    'text':'#1d303b','muted':'#58717e','portrait':'#286d83','accent':'#287f8a',
+    'green':'#317e68','red':'#b86168','pill':'#4e7594','badge_text':'#ffffff',
+    'grid':'#e1eaee','pink':'#7f9daf','yellow':'#b18b52','blue':'#397ba9',
+    'orange':'#b97b59','violet':'#667fa4'
 }
 
 def path_d(points, digits=1):
