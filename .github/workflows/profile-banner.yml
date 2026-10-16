@@ -1,0 +1,37 @@
+name: Build animated profile banners
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "portrait_masks.json"
+      - "render_profile_from_masks.py"
+      - ".github/workflows/profile-banner.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile sources
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install renderer dependencies
+        run: python -m pip install --disable-pip-version-check numpy pillow
+      - name: Render light and dark animated SVGs
+        run: python render_profile_from_masks.py portrait_masks.json dist
+      - name: Publish theme banners
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          publish_branch: profile-assets
+          publish_dir: dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force_orphan: true
+          commit_message: "Build animated profile banners [skip ci]"
