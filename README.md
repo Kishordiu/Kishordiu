@@ -7,19 +7,43 @@
 </div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;
-  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=34D399" /></a>&nbsp;&nbsp;
-  <a href="https://diufoundry.online/"><img alt="DIU Foundry" src="https://img.shields.io/badge/DIU_Foundry-0A101F?style=for-the-badge&logo=vercel&logoColor=22D3EE" /></a>
+  <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
+  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
+  <a href="https://diufoundry.online/"><img alt="DIU Foundry" src="https://img.shields.io/badge/DIU_Foundry-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" /></a>&nbsp;
+  <a href="https://github.com/Kishordiu?tab=achievements"><img alt="Browse native GitHub achievements" src="https://img.shields.io/badge/GitHub_Achievements-View_shelf-111827?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-<p align="center"><b>Curiosity drives the build.</b><br/>AI-native products · Full-stack engineering · IoT · Embedded systems · Security · Product design</p>
+<p align="center">
+  <img alt="Google Gemini Student Ambassador 2026" src="https://img.shields.io/badge/Google_Gemini-Student_Ambassador_2026-8B5CF6?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img alt="B.Tech CSE at BIHER" src="https://img.shields.io/badge/BIHER-B.Tech_CSE-0891B2?style=for-the-badge" />
+  <img alt="Build status: learning and shipping" src="https://img.shields.io/badge/STATUS-Building_%2F_Learning_%2F_Shipping-10B981?style=for-the-badge" />
+</p>
+
+<p align="center"><b>Curiosity drives the build.</b><br/><em>Independent builder at the intersection of AI, software, connected systems, and product design.</em></p>
+
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=10231A" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Kishordiu/Kishordiu/actions/workflows/profile-banner.yml"><img alt="Animated banner build" src="https://github.com/Kishordiu/Kishordiu/actions/workflows/profile-banner.yml/badge.svg?branch=main" /></a>
+  <a href="https://github.com/Kishordiu/Kishordiu/actions/workflows/profile-stats.yml"><img alt="Stats card refresh" src="https://github.com/Kishordiu/Kishordiu/actions/workflows/profile-stats.yml/badge.svg?branch=main" /></a>
+  <a href="https://github.com/Kishordiu/Kishordiu/actions/workflows/snake.yml"><img alt="Contribution snake build" src="https://github.com/Kishordiu/Kishordiu/actions/workflows/snake.yml/badge.svg?branch=main" /></a>
+</p>
 
 ---
 
 ## Live signals
 
 <p align="center">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=Kishordiu&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub contribution streak" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=Kishordiu&hide_border=true&background=0B1025&stroke=8B5CF6&ring=22D3EE&fire=FB7185&currStreakLabel=22D3EE&sideLabels=A5B4FC&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8&titleColor=F472B6&card_width=1180" alt="GitHub contribution streak" />
 </p>
 
 <p align="center">
@@ -81,6 +105,21 @@ Destination discovery, itinerary assembly, and trip-budget planning in a depende
 **Digital innovation studio**
 
 Every idea is a spark. Build the flame. AI, software, IoT, embedded systems, hardware prototyping, automation, and experimental products.
+
+---
+
+## GitHub-native achievements
+
+GitHub awards profile achievements automatically; they cannot be legitimately added as decorative stickers. Use the **[official achievement shelf](https://github.com/Kishordiu?tab=achievements)** to see which ones your account has earned. This README uses real workflow-status badges and technology badges separately.
+
+Milestones worth pursuing through genuine community work:
+
+- **Pull Shark** — get meaningful pull requests merged.
+- **Galaxy Brain** — help people in public repository Discussions and earn accepted answers.
+- **Pair Extraordinaire** — collaborate on a real change and get a co-authored pull request merged.
+- **Starstruck** — grow one of your original public projects to a wider audience.
+
+I won't display any of these as earned until GitHub itself awards them.
 
 ---
 
