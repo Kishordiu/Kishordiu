@@ -32,14 +32,18 @@ LANG_COLORS = {
     "Ruby": "#701516", "SCSS": "#c6538c", "Markdown": "#083fa1",
 }
 DARK = {
-    "bg": "#0b1222", "panel": "#101a2d", "line": "#2d3c56",
-    "text": "#f3f5fb", "muted": "#96a4bc", "cyan": "#22d3ee",
-    "violet": "#a78bfa", "green": "#34d399", "bar_bg": "#22314a",
+    "bg": "#080b1a", "panel": "#10152b", "line": "#30385f",
+    "text": "#f7f7ff", "muted": "#a7b2d9", "cyan": "#22d3ee",
+    "violet": "#a78bfa", "green": "#34d399", "pink": "#f472b6",
+    "yellow": "#fbbf24", "blue": "#60a5fa", "orange": "#fb923c",
+    "bar_bg": "#222846",
 }
 LIGHT = {
-    "bg": "#ffffff", "panel": "#ffffff", "line": "#d6dfed",
-    "text": "#111a2d", "muted": "#64748b", "cyan": "#0891b2",
-    "violet": "#7c3aed", "green": "#059669", "bar_bg": "#e9eef7",
+    "bg": "#f4f6ff", "panel": "#ffffff", "line": "#dedbf7",
+    "text": "#161530", "muted": "#6b668b", "cyan": "#0891b2",
+    "violet": "#7c3aed", "green": "#059669", "pink": "#db2777",
+    "yellow": "#d97706", "blue": "#2563eb", "orange": "#ea580c",
+    "bar_bg": "#e9e7ff",
 }
 
 def api_get(url: str):
@@ -86,15 +90,17 @@ def render_stats(theme_name: str, t: dict, totals: dict, updated: str):
         ("PUBLIC REPOSITORIES", totals["repos"], t["cyan"]),
         ("STARS EARNED", totals["stars"], t["violet"]),
         ("FORKS RECEIVED", totals["forks"], t["green"]),
-        ("FOLLOWERS", totals["followers"], t["cyan"]),
+        ("FOLLOWERS", totals["followers"], t["pink"]),
     ]
     slots = [(32, 76), (360, 76), (32, 153), (360, 153)]
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
         f'<title id="title">GitHub public profile statistics — {esc(OWNER)}</title>',
         f'<desc id="desc">Public repository count, stars, forks and followers. Updated {esc(updated)}.</desc>',
-        f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="20" fill="{t["bg"]}" stroke="{t["line"]}"/>',
-        f'<text x="28" y="31" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1.5" fill="{t["muted"]}">PUBLIC PROFILE / SYSTEM METRICS</text>',
+        f'<defs><linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{t["panel"]}"/><stop offset="1" stop-color="{t["bg"]}"/></linearGradient><linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{t["cyan"]}"/><stop offset=".52" stop-color="{t["violet"]}"/><stop offset="1" stop-color="{t["pink"]}"/></linearGradient><radialGradient id="cornerGlow"><stop offset="0" stop-color="{t["violet"]}" stop-opacity=".2"/><stop offset="1" stop-color="{t["violet"]}" stop-opacity="0"/></radialGradient></defs>',
+        f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="20" fill="url(#cardBg)" stroke="{t["line"]}"/>',
+        f'<ellipse cx="630" cy="30" rx="185" ry="100" fill="url(#cornerGlow)"/>',
+        f'<text x="28" y="31" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1.5" fill="url(#titleGradient)">PUBLIC PROFILE / SYSTEM METRICS</text>',
         f'<circle cx="661" cy="25" r="4" fill="{t["green"]}"/>',
     ]
     for (label, value, accent), (x, y) in zip(items, slots):
@@ -116,8 +122,10 @@ def render_languages(theme_name: str, t: dict, languages: dict, updated: str):
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
         f'<title id="title">Top public repository languages — {esc(OWNER)}</title>',
         '<desc id="desc">Language share estimated from the bytes reported by GitHub for owned non-fork public repositories. This measures code volume, not skill.</desc>',
-        f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="20" fill="{t["bg"]}" stroke="{t["line"]}"/>',
-        f'<text x="26" y="31" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1.5" fill="{t["muted"]}">LANGUAGE DISTRIBUTION</text>',
+        f'<defs><linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{t["panel"]}"/><stop offset="1" stop-color="{t["bg"]}"/></linearGradient><linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{t["cyan"]}"/><stop offset=".52" stop-color="{t["violet"]}"/><stop offset="1" stop-color="{t["pink"]}"/></linearGradient><radialGradient id="cornerGlow"><stop offset="0" stop-color="{t["pink"]}" stop-opacity=".15"/><stop offset="1" stop-color="{t["pink"]}" stop-opacity="0"/></radialGradient></defs>',
+        f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="20" fill="url(#cardBg)" stroke="{t["line"]}"/>',
+        f'<ellipse cx="535" cy="27" rx="185" ry="105" fill="url(#cornerGlow)"/>',
+        f'<text x="26" y="31" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="1.5" fill="url(#titleGradient)">LANGUAGE DISTRIBUTION</text>',
     ]
     if not top or total <= 0:
         parts.append(f'<text x="26" y="86" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="{t["text"]}">No public language data yet.</text>')
