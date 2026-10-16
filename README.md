@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303/"><img alt="Connect on LinkedIn" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/linkedin.svg?v=2" width="146" /></a>&nbsp;
-  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email Kishor" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/email.svg?v=2" width="84" /></a>
+  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email Kishor" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/email.svg?v=2" width="120" /></a>
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
   <img alt="Supabase" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/supabase.svg?v=2" width="105" />&nbsp;
   <img alt="PostgreSQL" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/postgresql.svg?v=2" width="115" />&nbsp;
   <img alt="Figma" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/figma.svg?v=2" width="82" />&nbsp;
-  <img alt="Vercel" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/vercel.svg?v=2" width="120" />
+  <img alt="Vercel" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/vercel.svg?v=2" width="86" />
 </p>
 
 <p align="center">
