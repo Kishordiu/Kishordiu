@@ -22,6 +22,10 @@
 <p align="center"><b>Curiosity drives the build.</b><br/><em>Independent builder at the intersection of AI, software, connected systems, and product design.</em></p>
 
 <p align="center">
+  <a href="PROFILE_MAINTENANCE.md"><img alt="Profile maintenance guide" src="https://img.shields.io/badge/PROFILE-Maintenance_Guide-7C3AED?style=flat-square&logo=github&logoColor=white" /></a>
+</p>
+
+<p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
