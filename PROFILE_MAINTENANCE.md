@@ -6,16 +6,17 @@ This repository contains the profile README and the source for its animated grap
 
 | What appears on the profile | Source / generator | Published output |
 | --- | --- | --- |
-| Dithered portrait banner | `portrait_masks.json` + `render_profile_from_masks.py` | `profile-assets`: `dark.svg`, `light.svg` |
+| Dithered portrait → DIU Foundry wordmark animation | `portrait_masks.json` + `render_profile_from_masks.py` | `profile-assets`: `dark.svg`, `light.svg` |
 | Public profile statistics | `scripts/generate_profile_stats.py` | `profile-stats`: `stats-dark.svg`, `stats-light.svg` |
 | Public language distribution | `scripts/generate_profile_stats.py` | `profile-stats`: `top-languages-dark.svg`, `top-languages-light.svg` |
+| Liquid-glass / clay buttons | `scripts/generate_liquid_buttons.py` + `.github/workflows/profile-banner.yml` | `profile-assets/buttons/*.svg` |
 | Contribution snake | `.github/workflows/snake.yml` | `output`: `github-snake.svg`, `github-snake-dark.svg` |
 
 The profile README selects a light or dark SVG using HTML `<picture>` and `prefers-color-scheme`. If you rename a published asset or its branch, update the README references at the same time.
 
 ## Workflows
 
-- **Build animated profile banners** — `.github/workflows/profile-banner.yml`. Rebuilds when the portrait mask, renderer, or workflow changes, and supports manual dispatch.
+- **Build animated profile banners** — `.github/workflows/profile-banner.yml`. Rebuilds the portrait-to-DIU morph and liquid-glass/clay buttons when source files change, and supports manual dispatch.
 - **Generate public profile stats cards** — `.github/workflows/profile-stats.yml`. Refreshes daily and can be run manually. It uses the short-lived `GITHUB_TOKEN` supplied by GitHub Actions; it does not require a personal access token or Vercel project.
 - **Generate Snake Animation** — `.github/workflows/snake.yml`. Refreshes twice daily and on pushes to `main`; it supports manual dispatch.
 
@@ -37,4 +38,4 @@ The workflows need repository Actions permissions that allow the workflow token 
 
 ## Current look
 
-The visual system combines a violet–cyan–pink–amber gradient, light/dark-aware surfaces, technical badges, project labels, generated public statistics, and the contribution snake. Keep badges honest: technology and role badges describe the profile; GitHub achievements are awarded by GitHub and should only be claimed once they appear on the account's native achievement shelf.
+The visual system combines a violet–cyan–pink–amber portrait that dissolves into the DIU Foundry wordmark, tactile liquid-glass/clay buttons, light/dark-aware surfaces, project labels, generated public statistics, and the contribution snake. Keep badges honest: technology and role badges describe the profile; GitHub achievements are awarded by GitHub and should only be claimed once they appear on the account's native achievement shelf.

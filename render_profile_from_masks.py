@@ -5,7 +5,7 @@ The dot masks are the source artwork; this script builds editable vector-path do
 from pathlib import Path
 import json, base64, sys, random
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 W, H = 1180, 610
 GRID_W, GRID_H = 120, 133
 X0, Y0, PW, PH = 74.0, 137.0, 378.0, 420.0
@@ -37,37 +37,41 @@ def dot_groups(coords, rng, n_groups=60):
     return buckets
 
 def logo_targets(name: str, count: int, seed: int):
-    """Sample three recognizable tool marks into a shared logo stage in the portrait frame."""
-    sz = 100
-    mask = Image.new('L', (sz,sz), 0); d = ImageDraw.Draw(mask)
-    if name == 'git':
-        d.polygon([(50,5),(95,50),(50,95),(5,50)], fill=255)
-        d.line([(34,36),(50,50),(68,32)], fill=0, width=8)
-        d.line([(50,50),(50,71)], fill=0, width=8)
-        for c in [(34,36),(68,32),(50,71)]: d.ellipse((c[0]-5,c[1]-5,c[0]+5,c[1]+5),fill=0)
-    elif name == 'vscode':
-        d.polygon([(15,36),(42,9),(82,1),(82,99),(42,91),(15,64),(1,58),(1,42)], fill=255)
-        d.polygon([(14,50),(42,29),(42,71)], fill=0)
-        d.polygon([(47,25),(73,18),(73,82),(47,75),(61,50)], fill=0)
-    elif name == 'figma':
-        d.rounded_rectangle((24,5,53,37), radius=14, fill=255)
-        d.rounded_rectangle((24,33,53,65), radius=14, fill=255)
-        d.rounded_rectangle((24,61,53,93), radius=14, fill=255)
-        d.ellipse((47,5,78,37), fill=255)
-        d.ellipse((47,33,78,65), fill=255)
-        d.rectangle((47,5,53,65),fill=0)
-        d.rectangle((47,33,53,65),fill=0)
-        d.ellipse((47,5,78,37),fill=255); d.ellipse((47,33,78,65),fill=255)
-    pix = np.asarray(mask) > 0
-    yy, xx = np.where(pix)
+    """Sample DIU lettering so the portrait particles reassemble as our wordmark."""
+    sz = 120
+    mask = Image.new("L", (sz, sz), 0)
+    draw = ImageDraw.Draw(mask)
+    try:
+        font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        word_font = ImageFont.truetype(font_path, 47)
+        sub_font = ImageFont.truetype(font_path, 10)
+    except OSError:
+        word_font = ImageFont.load_default()
+        sub_font = ImageFont.load_default()
+
+    word = "DIU"
+    bbox = draw.textbbox((0, 0), word, font=word_font, stroke_width=1)
+    word_w = bbox[2] - bbox[0]
+    draw.text(((sz - word_w) / 2, 15), word, font=word_font, fill=255,
+              stroke_width=1, stroke_fill=255)
+
+    sub = "FOUNDRY"
+    sub_box = draw.textbbox((0, 0), sub, font=sub_font)
+    sub_w = sub_box[2] - sub_box[0]
+    draw.text(((sz - sub_w) / 2, 75), sub, font=sub_font, fill=255)
+
+    pixels = np.asarray(mask) > 0
+    yy, xx = np.where(pixels)
     rng = np.random.default_rng(seed)
-    if len(xx) == 0: return [(263,347)]*count
+    if len(xx) == 0:
+        return [(263, 347)] * count
     chosen = rng.integers(0, len(xx), count)
-    scale = 1.42
-    px = 263 + (xx[chosen]-50)*scale
-    py = 347 + (yy[chosen]-50)*scale
-    px += rng.normal(0,0.45,count); py += rng.normal(0,0.45,count)
-    return list(zip(px,py))
+    scale = 2.12
+    px = 263 + (xx[chosen] - sz / 2) * scale
+    py = 347 + (yy[chosen] - sz / 2) * scale
+    px += rng.normal(0, 0.34, count)
+    py += rng.normal(0, 0.34, count)
+    return list(zip(px, py))
 
 def escape(s):
     return s.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;')
@@ -79,12 +83,10 @@ def make_svg(theme: dict, mode: str, dot_coords: list[tuple[float,float]], outpu
     view_coords = [(X0 + (x + .5)*sx, Y0 + (y + .5)*sy) for x,y in dot_coords]
     particle_count = min(320, max(220, len(dot_coords)//40))
     chosen = rng.sample(view_coords, particle_count)
-    git = logo_targets('git', particle_count, SEED+4)
-    vscode = logo_targets('vscode', particle_count, SEED+5)
-    figma = logo_targets('figma', particle_count, SEED+6)
+    diu = logo_targets('diu', particle_count, SEED+4)
     c = theme
     chunks = [f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
-<title id="title">K. Kishor Kumar — animated engineering profile</title><desc id="desc">A dithered portrait shimmers into view, then particles morph through Git, VS Code and Figma before rebuilding the portrait. Theme: {mode}.</desc>
+<title id="title">K. Kishor Kumar — animated engineering profile</title><desc id="desc">A dithered portrait dissolves into colourful living particles, reforms as the DIU Foundry wordmark, then reconstructs the portrait. Theme: {mode}.</desc>
 <defs>
 <clipPath id="portraitClip"><rect x="59" y="121" width="408" height="448" rx="18"/></clipPath>
 <clipPath id="frameClip"><rect x="7.5" y="7.5" width="1165" height="595" rx="24"/></clipPath>
@@ -93,6 +95,8 @@ def make_svg(theme: dict, mode: str, dot_coords: list[tuple[float,float]], outpu
 <linearGradient id="travellerGradient" gradientUnits="userSpaceOnUse" x1="490" y1="120" x2="800" y2="420"><stop offset="0" stop-color="{c['accent']}"/><stop offset=".42" stop-color="{c['violet']}"/><stop offset=".72" stop-color="{c['pink']}"/><stop offset="1" stop-color="{c['yellow']}"/></linearGradient>
 <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{c['text']}"/><stop offset=".48" stop-color="{c['accent']}"/><stop offset="1" stop-color="{c['pink']}"/></linearGradient>
 <linearGradient id="pillGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c['violet']}"/><stop offset=".58" stop-color="{c['blue']}"/><stop offset="1" stop-color="{c['pink']}"/></linearGradient>
+<filter id="clayShadow" x="-35%" y="-50%" width="170%" height="210%"><feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#000000" flood-opacity=".38"/></filter>
+<clipPath id="pillClip"><rect x="493" y="191" width="185" height="32" rx="16"/></clipPath>
 <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="{c['accent']}" stop-opacity="0"/><stop offset=".35" stop-color="{c['accent']}" stop-opacity=".25"/><stop offset=".7" stop-color="{c['pink']}" stop-opacity=".3"/><stop offset="1" stop-color="{c['accent']}" stop-opacity="0"/></linearGradient>
 <radialGradient id="glowOne"><stop offset="0" stop-color="{c['violet']}" stop-opacity=".25"/><stop offset="1" stop-color="{c['violet']}" stop-opacity="0"/></radialGradient>
 <radialGradient id="glowTwo"><stop offset="0" stop-color="{c['accent']}" stop-opacity=".20"/><stop offset="1" stop-color="{c['accent']}" stop-opacity="0"/></radialGradient>
@@ -115,16 +119,16 @@ def make_svg(theme: dict, mode: str, dot_coords: list[tuple[float,float]], outpu
         chunks.append(f'<path d="{d}" opacity="0"><animate attributeName="opacity" values="0;1" dur=".52s" begin="{delay:.2f}s" fill="freeze"/></path>')
     chunks.append('</g>')
     chunks.append(f'<g id="logo-travellers" fill="none" stroke="url(#travellerGradient)" stroke-width="2.8" stroke-linecap="round" opacity="0">')
-    chunks.append(f'<path d="{path_d(chosen)}"><animate attributeName="d" dur="14.2s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.2113;0.3028;0.4437;0.5352;0.6761;0.7676;0.9085;1" values="{path_d(chosen)};{path_d(chosen)};{path_d(git)};{path_d(git)};{path_d(vscode)};{path_d(vscode)};{path_d(figma)};{path_d(figma)};{path_d(chosen)}"/></path>')
-    chunks.append(f'<animate attributeName="opacity" values="0;0;1;1;1;1;1;1;0" keyTimes="0;0.2113;0.3028;0.4437;0.5352;0.6761;0.7676;0.9085;1" dur="14.2s" repeatCount="indefinite"/>')
+    chunks.append(f'<path d="{path_d(chosen)}"><animate attributeName="d" dur="14.2s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.32;0.84;1" values="{path_d(chosen)};{path_d(chosen)};{path_d(diu)};{path_d(diu)};{path_d(chosen)}"/></path>')
+    chunks.append(f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.21;0.32;0.84;1" dur="14.2s" repeatCount="indefinite"/>')
     chunks.append('</g></g>')
-    labels = [('GIT',.3028,.4437),('VS CODE',.5352,.6761),('FIGMA',.7676,.9085)]
+    labels = [('DIU // FOUNDRY',.32,.84)]
     for label,start,end in labels:
         chunks.append(f'<text x="255" y="535" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="2.4" text-anchor="middle" fill="{c["accent"]}" opacity="0">{label}<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;{start};{end};1" dur="14.2s" repeatCount="indefinite"/></text>')
     chunks.append(f'''<text x="493" y="108" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing=".7" fill="{c['muted']}">SYSTEM.INFO</text>
 <text x="493" y="177" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="750" letter-spacing=".15" fill="url(#titleGradient)">K. KISHOR KUMAR</text>
 <text x="493" y="189" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" letter-spacing=".35" fill="{c['muted']}">Engineer · Builder · Innovator</text>
-<rect x="493" y="191" width="185" height="32" rx="16" fill="url(#pillGradient)"/><text x="510" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" fill="{c['badge_text']}">@Kishordiu</text>
+<rect x="493" y="191" width="185" height="32" rx="16" fill="url(#pillGradient)" stroke="#ffffff" stroke-opacity=".62" stroke-width="1" filter="url(#clayShadow)"/><g clip-path="url(#pillClip)"><rect x="494" y="192" width="183" height="10" rx="5" fill="#ffffff" opacity=".18"/><path d="M-20 191 L15 191 L-4 223 L-39 223 Z" fill="#ffffff" opacity=".28"><animateTransform attributeName="transform" type="translate" values="-160 0;230 0" dur="4.8s" repeatCount="indefinite"/></path></g><text x="510" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700" fill="{c['badge_text']}">@Kishordiu</text>
 <rect x="1064" y="92" width="82" height="28" rx="14" fill="{c['panel2']}" stroke="{c['line']}"/><circle cx="1081" cy="106" r="4.5" fill="{c['red']}"><animate attributeName="opacity" values="1;.32;1" dur="1.5s" repeatCount="indefinite"/></circle><text x="1093" y="110" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" letter-spacing="1" fill="{c['red']}">LIVE</text>
 ''')
     rows = [
