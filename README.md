@@ -1,120 +1,99 @@
 <div align="center">
-
-![Kishor Kumar — Engineering](https://capsule-render.vercel.app/api?type=waving&color=0:050505,55:111111,100:2A2A28&height=250&section=header&text=K.%20KISHOR%20KUMAR&fontColor=F4F4EF&fontSize=46&fontAlignY=40&desc=ENGINEER%20%C2%B7%20BUILDER%20%C2%B7%20INNOVATOR&descColor=969690&descSize=13&descAlignY=62&animation=fadeIn)
-
-**AI · Full-Stack · IoT · Cybersecurity · Embedded Systems · Product Engineering**
-
-<a href="https://github.com/Kishordiu">GitHub</a>
-&nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303">LinkedIn</a>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=2" />
+    <img alt="K. Kishor Kumar — animated dotted portrait engineering profile" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=2" width="100%" />
+  </picture>
 </div>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;
+  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=34D399" /></a>&nbsp;&nbsp;
+  <a href="https://diufoundry.online/"><img alt="DIU Foundry" src="https://img.shields.io/badge/DIU_Foundry-0A101F?style=for-the-badge&logo=vercel&logoColor=22D3EE" /></a>
+</p>
 
-# BUILDING AT THE EDGE OF SOFTWARE
-
-I build systems that move through **research → architecture → prototype → test → iteration → product**.
-
-The portfolio spans intelligent software, full-stack products, connected devices, security architectures, accessibility technology, health-tech experiments and creative-technology interfaces.
-
-## THE ENGINEERING MAP
-
-| Intelligence | Product | Connected Systems | Hardware |
-|---|---|---|---|
-| Generative AI | React / Next.js | IoT | ESP32 |
-| Computer Vision | TypeScript | Embedded Systems | Sensors |
-| AI Assistants | Node.js | Zero Trust | Electronics |
-| Intelligent Workflows | Supabase / PostgreSQL | Device Security | Prototyping |
+<p align="center"><b>Curiosity drives the build.</b><br/>AI-native products · Full-stack engineering · IoT · Embedded systems · Security · Product design</p>
 
 ---
 
-# SELECTED SYSTEMS
+## Live signals
+
+<p align="center">
+  <img width="100%" src="https://streak-stats.demolab.com/?user=Kishordiu&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub contribution streak" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/output/github-snake.svg" />
+    <img alt="Animated snake traversing my GitHub contribution graph" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
+
+<!--
+PERSONAL STATS CARDS — intentionally held until self-hosting is complete.
+Fork https://github.com/anuraghazra/github-readme-stats, deploy that fork to Vercel,
+set the secret PAT_1 as a Vercel environment variable, then replace YOUR-INSTANCE below.
+Never place the token in this README or any source file.
+
+<p align="center">
+  <img width="49%" src="https://YOUR-INSTANCE.vercel.app/api?username=Kishordiu&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="GitHub stats" />
+  <img width="49%" src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=Kishordiu&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="Top languages" />
+</p>
+-->
+
+## Selected systems
 
 ### [DIU NEST](https://github.com/Kishordiu/Diu-Nest)
-**PROCUREMENT INTELLIGENCE / EVIDENCE**
+**Procurement intelligence · evidence-based decisions**
 
-A decision workflow built around live discovery, evidence provenance, deterministic cost/risk analysis and auditable approval.
+Live discovery and auditable decision workflows built around evidence provenance, deterministic cost/risk analysis, and approval.
 
 ### [SENTINEL SHIELD](https://github.com/Kishordiu/sentinel-shield-ui)
-**ZERO-TRUST / HARDWARE SECURITY**
+**Zero-trust · connected-device security**
 
-Secure onboarding, device identity, trust-state enforcement and tamper-response concepts for connected systems.
+Secure onboarding, device identity, trust-state enforcement, and tamper-response concepts for connected systems.
 
 ### [SIXSHARP](https://github.com/Kishordiu/sixsharp)
-**QUANTITATIVE RESEARCH / BACKTESTING**
+**Quantitative research · backtesting**
 
-Strategy research with explicit execution assumptions, transaction costs, position sizing and risk-aware analytics.
+Multi-asset strategy research with explicit execution assumptions, transaction costs, position sizing, and risk analytics.
 
 ### [KIDIUVISION](https://github.com/Kishordiu/Kidiuvision)
-**VISUAL INTELLIGENCE / BROWSER COMPUTATION**
+**Visual intelligence · browser computation**
 
-A local-first image workbench for pixel inspection, luminance analysis, colour estimation and visual transforms.
+A local-first image workbench for pixel inspection, luminance analysis, colour estimation, and visual transforms.
 
 ### [KNEEAI](https://github.com/Kishordiu/KneeAI)
-**HEALTH-TECH / WELLNESS TRACKING**
+**Health-tech · wellness tracking**
 
-A local-first workspace for daily discomfort tracking, trends, gentle session planning and safety guidance.
+A local-first workspace for discomfort tracking, trends, gentle session planning, and safety guidance.
 
 ### [TRAVEL WITH STREETFORGE](https://github.com/Kishordiu/TravelwithSF)
-**TRAVEL / PRODUCT EXPERIENCE**
+**Travel · product experience**
 
-Destination discovery, itinerary assembly and trip-budget planning in a dependency-free browser product.
-
-### [STREETFORGE](https://github.com/Kishordiu/Streetaforge)
-**TECHNOLOGY × INNOVATION × ENGINEERING**
-
-The studio identity connecting software, AI, IoT, embedded systems, electronics, hardware prototyping and digital products.
+Destination discovery, itinerary assembly, and trip-budget planning in a dependency-free browser product.
 
 ### [DIU FOUNDRY](https://diufoundry.online/)
-**DIGITAL INNOVATION STUDIO**
+**Digital innovation studio**
 
-Every idea is a spark. Build the flame. A growing body of work across AI, software, hardware, embedded systems, IoT, automation and experimental products.
+Every idea is a spark. Build the flame. AI, software, IoT, embedded systems, hardware prototyping, automation, and experimental products.
 
 ---
 
-# THE WORKING PRINCIPLE
+## The working principle
 
-> **Don't just make the interface look finished. Make the system make sense.**
-
-That means:
+> Don't just make the interface look finished. Make the system make sense.
 
 ```text
-QUESTION
-   ↓
-RESEARCH
-   ↓
-SYSTEM DESIGN
-   ↓
-IMPLEMENTATION
-   ↓
-TEST / OBSERVE
-   ↓
-ITERATE
-   ↓
-SHIP
+QUESTION → RESEARCH → DESIGN → BUILD → TEST → ITERATE → SHIP
 ```
 
-The public portfolio intentionally contains products, technical prototypes and experiments at different stages. The README of each repository states what is implemented and separates that from future direction.
+The public portfolio contains products, technical prototypes, and experiments at different stages. Each project README should make the implemented functionality and future direction clear.
 
 ---
 
-# CURRENT DIRECTION
-
-**AI-native products · secure IoT · intelligent interfaces · software/hardware integration · innovation platforms**
-
----
-
-<div align="center">
-
-![Engineering footer](https://capsule-render.vercel.app/api?type=waving&color=0:2A2A28,55:111111,100:050505&height=120&section=footer&animation=twinkling)
-
-**KISHOR / ENGINEERING LOG**
-
-<sub>Curiosity drives the build.</sub>
-
-<br><br>
-
-© K. Kishor Kumar · Built, documented and maintained by Kishordiu
-
-</div>
+<p align="center">
+  <b>Research → Build → Test → Ship</b><br/>
+  <sub>Built, documented, and maintained by K. Kishor Kumar.</sub>
+</p>
