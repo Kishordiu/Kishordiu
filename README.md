@@ -30,17 +30,20 @@
   </picture>
 </p>
 
-<!--
-PERSONAL STATS CARDS — intentionally held until self-hosting is complete.
-Fork https://github.com/anuraghazra/github-readme-stats, deploy that fork to Vercel,
-set the secret PAT_1 as a Vercel environment variable, then replace YOUR-INSTANCE below.
-Never place the token in this README or any source file.
-
 <p align="center">
-  <img width="49%" src="https://YOUR-INSTANCE.vercel.app/api?username=Kishordiu&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="GitHub stats" />
-  <img width="49%" src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=Kishordiu&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/stats-light.svg" />
+    <img width="49%" alt="GitHub public profile statistics" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/stats-light.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/top-languages-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/top-languages-light.svg" />
+    <img width="49%" alt="Top languages in public non-fork repositories" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/top-languages-light.svg" />
+  </picture>
 </p>
--->
+
+<sub>Stats are generated from public GitHub data by this repository’s own scheduled workflow. Language share reflects code volume, not skill; private repository activity is not included.</sub>
 
 ## Selected systems
 
