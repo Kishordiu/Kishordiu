@@ -7,33 +7,39 @@
 </div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303/"><img alt="Connect on LinkedIn" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/linkedin.svg?v=1" width="198" /></a>&nbsp;
-  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email Kishor" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/email.svg?v=1" width="170" /></a>&nbsp;
-  <a href="https://diufoundry.online/"><img alt="Visit DIU Foundry" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/diu-foundry.svg?v=1" width="214" /></a>&nbsp;
-  <a href="https://github.com/Kishordiu?tab=achievements"><img alt="Open official GitHub achievements shelf" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/achievements.svg?v=1" width="238" /></a>
+  <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303/"><img alt="Connect on LinkedIn" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/linkedin.svg?v=2" width="146" /></a>&nbsp;
+  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email Kishor" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/email.svg?v=2" width="120" /></a>
 </p>
 
 <p align="center">
-  <img alt="Google Gemini Student Ambassador 2026" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/gemini.svg?v=1" width="252" />&nbsp;
-  <img alt="BIHER · B.Tech CSE" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/biher.svg?v=1" width="228" />&nbsp;
-  <img alt="Building, learning, shipping" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/status.svg?v=1" width="238" />
+  <a href="https://diufoundry.online/"><img alt="Visit DIU Foundry" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/diu-foundry.svg?v=2" width="160" /></a>&nbsp;
+  <a href="https://github.com/Kishordiu?tab=achievements"><img alt="Open official GitHub achievements shelf" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/achievements.svg?v=2" width="186" /></a>
+</p>
+
+<p align="center">
+  <img alt="Google Gemini Student Ambassador 2026" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/gemini.svg?v=2" width="188" />&nbsp;
+  <img alt="BIHER · B.Tech CSE" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/biher.svg?v=2" width="168" />
+</p>
+
+<p align="center">
+  <img alt="Building, learning, shipping" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/status.svg?v=2" width="172" />
 </p>
 
 <p align="center"><b>Curiosity drives the build.</b><br/><em>Independent builder at the intersection of AI, software, connected systems, and product design.</em></p>
 
 <p align="center">
-  <a href="PROFILE_MAINTENANCE.md"><img alt="Profile assets and maintenance guide" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/guide.svg?v=1" width="202" /></a>
+  <a href="PROFILE_MAINTENANCE.md"><img alt="Profile assets and maintenance guide" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/guide.svg?v=2" width="148" /></a>
 </p>
 
 <p align="center">
-  <img alt="Python" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/python.svg?v=1" width="128" />&nbsp;
-  <img alt="TypeScript" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/typescript.svg?v=1" width="153" />&nbsp;
-  <img alt="React" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/react.svg?v=1" width="120" />&nbsp;
-  <img alt="Node.js" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/node.svg?v=1" width="132" />&nbsp;
-  <img alt="Supabase" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/supabase.svg?v=1" width="142" />&nbsp;
-  <img alt="PostgreSQL" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/postgresql.svg?v=1" width="152" />&nbsp;
-  <img alt="Figma" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/figma.svg?v=1" width="116" />&nbsp;
-  <img alt="Vercel" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/vercel.svg?v=1" width="120" />
+  <img alt="Python" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/python.svg?v=2" width="94" />&nbsp;
+  <img alt="TypeScript" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/typescript.svg?v=2" width="111" />&nbsp;
+  <img alt="React" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/react.svg?v=2" width="86" />&nbsp;
+  <img alt="Node.js" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/node.svg?v=2" width="96" />&nbsp;
+  <img alt="Supabase" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/supabase.svg?v=2" width="105" />&nbsp;
+  <img alt="PostgreSQL" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/postgresql.svg?v=2" width="115" />&nbsp;
+  <img alt="Figma" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/figma.svg?v=2" width="82" />&nbsp;
+  <img alt="Vercel" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/vercel.svg?v=2" width="86" />
 </p>
 
 <p align="center">

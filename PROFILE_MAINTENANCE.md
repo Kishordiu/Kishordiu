@@ -38,4 +38,4 @@ The workflows need repository Actions permissions that allow the workflow token 
 
 ## Current look
 
-The visual system combines a violet–cyan–pink–amber portrait that dissolves into the DIU Foundry wordmark, tactile liquid-glass/clay buttons, light/dark-aware surfaces, project labels, generated public statistics, and the contribution snake. Keep badges honest: technology and role badges describe the profile; GitHub achievements are awarded by GitHub and should only be claimed once they appear on the account's native achievement shelf.
+The visual system combines a violet–cyan–pink–amber portrait that dissolves into the DIU Foundry wordmark, compact ocean-glass/soft-clay buttons with muted slate, aqua and periwinkle accents, light/dark-aware surfaces, project labels, generated public statistics, and the contribution snake. Keep badges honest: technology and role badges describe the profile; GitHub achievements are awarded by GitHub and should only be claimed once they appear on the account's native achievement shelf.
