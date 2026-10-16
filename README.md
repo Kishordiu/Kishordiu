@@ -1,16 +1,15 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/dark.svg?v=2" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=2" />
-    <img alt="K. Kishor Kumar — animated dotted portrait engineering profile" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=2" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/dark.svg?v=3" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=3" />
+    <img alt="K. Kishor Kumar — animated dotted portrait engineering profile" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=3" width="100%" />
   </picture>
 </div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/k-kishor-kumar-3b2910303/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
-  <a href="mailto:kishorvishwa2525@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
-  <a href="https://diufoundry.online/"><img alt="DIU Foundry" src="https://img.shields.io/badge/DIU_Foundry-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" /></a>&nbsp;
-  <a href="https://github.com/Kishordiu?tab=achievements"><img alt="Browse native GitHub achievements" src="https://img.shields.io/badge/GitHub_Achievements-View_shelf-111827?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img alt="Google Gemini Student Ambassador 2026" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/gemini.svg?v=1" width="252" />&nbsp;
+  <img alt="BIHER · B.Tech CSE" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/biher.svg?v=1" width="228" />&nbsp;
+  <img alt="Building, learning, shipping" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/status.svg?v=1" width="238" />
 </p>
 
 <p align="center">
@@ -22,18 +21,18 @@
 <p align="center"><b>Curiosity drives the build.</b><br/><em>Independent builder at the intersection of AI, software, connected systems, and product design.</em></p>
 
 <p align="center">
-  <a href="PROFILE_MAINTENANCE.md"><img alt="Profile maintenance guide" src="https://img.shields.io/badge/PROFILE-Maintenance_Guide-7C3AED?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="PROFILE_MAINTENANCE.md"><img alt="Profile assets and maintenance guide" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/guide.svg?v=1" width="202" /></a>
 </p>
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=10231A" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img alt="Python" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/python.svg?v=1" width="128" />&nbsp;
+  <img alt="TypeScript" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/typescript.svg?v=1" width="153" />&nbsp;
+  <img alt="React" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/react.svg?v=1" width="120" />&nbsp;
+  <img alt="Node.js" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/node.svg?v=1" width="132" />&nbsp;
+  <img alt="Supabase" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/supabase.svg?v=1" width="142" />&nbsp;
+  <img alt="PostgreSQL" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/postgresql.svg?v=1" width="152" />&nbsp;
+  <img alt="Figma" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/figma.svg?v=1" width="116" />&nbsp;
+  <img alt="Vercel" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/buttons/vercel.svg?v=1" width="120" />
 </p>
 
 <p align="center">
