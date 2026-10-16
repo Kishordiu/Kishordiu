@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/dark.svg?v=3" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=3" />
-    <img alt="K. Kishor Kumar — portrait particles dissolve into the DIU Foundry wordmark" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=3" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/dark.svg?v=4" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=4" />
+    <img alt="K. Kishor Kumar — portrait particles dissolve into the DIU Foundry wordmark" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-assets/light.svg?v=4" width="100%" />
   </picture>
 </div>
 
@@ -53,7 +53,7 @@
 ## Live signals
 
 <p align="center">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=Kishordiu&hide_border=true&background=0B1025&stroke=8B5CF6&ring=22D3EE&fire=FB7185&currStreakLabel=22D3EE&sideLabels=A5B4FC&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8&titleColor=F472B6&card_width=1180" alt="GitHub contribution streak" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=Kishordiu&hide_border=true&background=0A141C&stroke=2D424F&ring=6BC6CE&fire=C69372&currStreakLabel=6BC6CE&sideLabels=A2B5C0&currStreakNum=EEF4F7&sideNums=E4EDF1&dates=8299A5&titleColor=A2B5C0&card_width=1180" alt="GitHub contribution streak" />
 </p>
 
 <p align="center">
@@ -66,13 +66,13 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/stats-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/stats-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/stats-light.svg?v=2" />
     <img width="49%" alt="GitHub public profile statistics" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/stats-light.svg" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/top-languages-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/top-languages-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/top-languages-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/top-languages-light.svg?v=2" />
     <img width="49%" alt="Top languages in public non-fork repositories" src="https://raw.githubusercontent.com/Kishordiu/Kishordiu/profile-stats/top-languages-light.svg" />
   </picture>
 </p>
@@ -82,43 +82,43 @@
 ## Selected systems
 
 ### 🧭 [DIU NEST](https://github.com/Kishordiu/Diu-Nest)
-<img alt="Procurement intelligence" src="https://img.shields.io/badge/DECISION_INTELLIGENCE-8B5CF6?style=flat-square" />
+<img alt="Procurement intelligence" src="https://img.shields.io/badge/DECISION_INTELLIGENCE-617DA3?style=flat-square" />
 **Procurement intelligence · evidence-based decisions**
 
 Live discovery and auditable decision workflows built around evidence provenance, deterministic cost/risk analysis, and approval.
 
 ### 🛡️ [SENTINEL SHIELD](https://github.com/Kishordiu/sentinel-shield-ui)
-<img alt="Zero-trust security" src="https://img.shields.io/badge/ZERO_TRUST-EC4899?style=flat-square" />
+<img alt="Zero-trust security" src="https://img.shields.io/badge/ZERO_TRUST-608B9E?style=flat-square" />
 **Zero-trust · connected-device security**
 
 Secure onboarding, device identity, trust-state enforcement, and tamper-response concepts for connected systems.
 
 ### 📈 [SIXSHARP](https://github.com/Kishordiu/sixsharp)
-<img alt="Quantitative research" src="https://img.shields.io/badge/QUANT_RESEARCH-0891B2?style=flat-square" />
+<img alt="Quantitative research" src="https://img.shields.io/badge/QUANT_RESEARCH-397E91?style=flat-square" />
 **Quantitative research · backtesting**
 
 Multi-asset strategy research with explicit execution assumptions, transaction costs, position sizing, and risk analytics.
 
 ### 👁️ [KIDIUVISION](https://github.com/Kishordiu/Kidiuvision)
-<img alt="Visual intelligence" src="https://img.shields.io/badge/COMPUTER_VISION-2563EB?style=flat-square" />
+<img alt="Visual intelligence" src="https://img.shields.io/badge/COMPUTER_VISION-4D7FA5?style=flat-square" />
 **Visual intelligence · browser computation**
 
 A local-first image workbench for pixel inspection, luminance analysis, colour estimation, and visual transforms.
 
 ### 🌿 [KNEEAI](https://github.com/Kishordiu/KneeAI)
-<img alt="Health technology" src="https://img.shields.io/badge/HEALTH_TECH-059669?style=flat-square" />
+<img alt="Health technology" src="https://img.shields.io/badge/HEALTH_TECH-467E6A?style=flat-square" />
 **Health-tech · wellness tracking**
 
 A local-first workspace for discomfort tracking, trends, gentle session planning, and safety guidance.
 
 ### 🗺️ [TRAVEL WITH STREETFORGE](https://github.com/Kishordiu/TravelwithSF)
-<img alt="Travel product" src="https://img.shields.io/badge/PRODUCT_EXPERIENCE-F59E0B?style=flat-square" />
+<img alt="Travel product" src="https://img.shields.io/badge/PRODUCT_EXPERIENCE-B18C59?style=flat-square" />
 **Travel · product experience**
 
 Destination discovery, itinerary assembly, and trip-budget planning in a dependency-free browser product.
 
 ### ✨ [DIU FOUNDRY](https://diufoundry.online/)
-<img alt="Digital innovation studio" src="https://img.shields.io/badge/INNOVATION_STUDIO-DB2777?style=flat-square" />
+<img alt="Digital innovation studio" src="https://img.shields.io/badge/INNOVATION_STUDIO-6E90A5?style=flat-square" />
 **Digital innovation studio**
 
 Every idea is a spark. Build the flame. AI, software, IoT, embedded systems, hardware prototyping, automation, and experimental products.
