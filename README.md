@@ -140,6 +140,14 @@ These thresholds are community-documented and can change; GitHub itself decides 
 
 ---
 
+## The F.O.R.G.E. README protocol
+
+Every project should feel like its own product—not a copy-pasted page. The portfolio's README method is **Form → Objective → Route → Ground truth → Execute**: distinctive artwork, a clear purpose, a legible system path, honest implementation boundaries, and commands that match the source.
+
+[Read the F.O.R.G.E. protocol and its quality gate](https://github.com/Kishordiu/Kishordiu/blob/main/FORGE_README_PROTOCOL.md).
+
+---
+
 ## The working principle
 
 > Don't just make the interface look finished. Make the system make sense.
